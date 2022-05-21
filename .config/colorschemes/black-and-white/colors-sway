@@ -1,0 +1,21 @@
+set $wallpaper /home/linkio/Downloads/download.png
+
+set $background #000000
+set $foreground #ebebeb
+
+set $color0 #000000
+set $color1 #575757
+set $color2 #666666
+set $color3 #777777
+set $color4 #8D8D8D
+set $color5 #ABABAB
+set $color6 #CDCDCD
+set $color7 #ebebeb
+set $color8 #a4a4a4
+set $color9 #575757
+set $color10 #666666
+set $color11 #777777
+set $color12 #8D8D8D
+set $color13 #ABABAB
+set $color14 #CDCDCD
+set $color15 #ebebeb

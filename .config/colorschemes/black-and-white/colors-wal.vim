@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/linkio/Downloads/download.png"
+let background = "#000000"
+let foreground = "#ebebeb"
+let cursor     = "#ebebeb"
+
+" Colors
+let color0  = "#000000"
+let color1  = "#575757"
+let color2  = "#666666"
+let color3  = "#777777"
+let color4  = "#8D8D8D"
+let color5  = "#ABABAB"
+let color6  = "#CDCDCD"
+let color7  = "#ebebeb"
+let color8  = "#a4a4a4"
+let color9  = "#575757"
+let color10 = "#666666"
+let color11 = "#777777"
+let color12 = "#8D8D8D"
+let color13 = "#ABABAB"
+let color14 = "#CDCDCD"
+let color15 = "#ebebeb"
