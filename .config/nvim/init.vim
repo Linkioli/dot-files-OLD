@@ -82,10 +82,7 @@ nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>
 " :BarbarEnable - enables barbar (enabled by default)
 " :BarbarDisable - very bad command, should never be used
 
-" color schemes
-" if (has("termguicolors"))
-"     set termguicolors
-"     endif
+" set termguicolors
 
 
 syntax enable
