@@ -16,7 +16,8 @@ static const char dmenufont[]       = "JetBrains Mono:size=12";
 
 /* colorschemes */
 /* #include "/home/linkio/.cache/wal/colors-wal-dwm.h */
-#include "/home/linkio/.config/colorschemes/black-and-white/colors-wal-dwm.h"
+/* #include "/home/linkio/.config/colorschemes/black-and-white/colors-wal-dwm.h" */
+#include "/home/linkio/.config/colorschemes/gruvbox/colors-wal-dwm.h"
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6"};
