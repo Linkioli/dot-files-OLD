@@ -7,4 +7,5 @@
 /* Dark theme. */
 @import "~/.cache/wal/colors-rofi-dark"
 
-
+/* other colorchemes */
+/* @import "~/.config/colorschemes/black-and-white/colors-rofi-dark.rasi" */

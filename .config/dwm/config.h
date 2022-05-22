@@ -13,7 +13,10 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "JetBrains Mono:size=12", "Twemoji:pixelsize=11:antialia=true:autohint=true" };
 static const char dmenufont[]       = "JetBrains Mono:size=12";
-#include "/home/linkio/.cache/wal/colors-wal-dwm.h"
+
+/* colorschemes */
+/* #include "/home/linkio/.cache/wal/colors-wal-dwm.h */
+#include "/home/linkio/.config/colorschemes/black-and-white/colors-wal-dwm.h"
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6"};
