@@ -6,7 +6,7 @@ lxsession &
 
 sxhkd -m 1 &
 
-setxkbmap us -variant colemak &
+setxkbmap -layout us -variant colemak -option caps:capslock &
 
 ~/.config/slstatus/slstatus &
 
