@@ -9,3 +9,4 @@ All of my Linux configuration(dot) files
 - rofi
 - slstatus
 - sxhkd
+- thefuck (autocorrect)
