@@ -24,25 +24,39 @@ set ttyfast                 " Speed up scrolling in Vim
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'sheerun/vim-polyglot'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'preservim/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'ryanoasis/vim-devicons'
-Plug 'dracula/vim'
-Plug 'dylanaraps/wal.vim'
-Plug 'kyazdani42/nvim-web-devicons'
-Plug 'romgrk/barbar.nvim'
+Plug 'sheerun/vim-polyglot'                         " Language Pack
+Plug 'neoclide/coc.nvim', {'branch': 'release'}     " autofill suggestions
+Plug 'preservim/nerdtree'                           " file tree
+Plug 'Xuyuanp/nerdtree-git-plugin'                  " shows git status in nerd tree
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'      " adds sytax highlighting to nerdtree
+Plug 'ryanoasis/vim-devicons'                       " adds language icons to nerdtree
+Plug 'dracula/vim'                                  " dracula colorscheme
+Plug 'dylanaraps/wal.vim'                           " adds pywal support
+Plug 'kyazdani42/nvim-web-devicons'                 " adds more laguage icons
+Plug 'romgrk/barbar.nvim'                           " tab manager
 
 call plug#end()
 
- 
+
+" set termguicolors
+syntax enable
+" colorscheme dracula
+colorscheme wal
+
+" open new split panes to right and below
+set splitright
+set splitbelow
+set completeopt=longest,menuone
+
+
+" NERDTree bindings
 nmap <C-n> :NERDTreeToggle<CR> 
 " Sets keybind to toggle nerdtree to control + n
 
 " barbar bindings
-" Move to previous/next
+" ---------------------------------------------------------------------------
+
+" " Move to previous/next
 nnoremap <silent>    <A-,> :BufferPrevious<CR>
 nnoremap <silent>    <A-.> :BufferNext<CR>
 " Re-order to previous/next
@@ -82,18 +96,9 @@ nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>
 " :BarbarEnable - enables barbar (enabled by default)
 " :BarbarDisable - very bad command, should never be used
 
-" set termguicolors
-
-
-syntax enable
-" colorscheme dracula
-colorscheme wal
-" open new split panes to right and below
-set splitright
-set splitbelow
-set completeopt=longest,menuone
-
+" ---------------------------------------------------------------------------
 " COC-VIM TAB SETTINGS
+" ---------------------------------------------------------------------------
 
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
