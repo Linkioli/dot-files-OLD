@@ -11,4 +11,3 @@ NOTE: This favors the colemak keyboard layout
 - rofi
 - slstatus
 - sxhkd
-- thefuck (autocorrect)
