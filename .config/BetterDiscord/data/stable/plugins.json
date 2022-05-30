@@ -1,9 +1,0 @@
-{
-    "MessageLoggerV2": true,
-    "ZeresPluginLibrary": false,
-    "XenoLib": false,
-    "SplitLargeMessages": true,
-    "BDFDB": false,
-    "HideChannels": false,
-    "HideServersChannelsRedux": true
-}
