@@ -104,7 +104,7 @@ nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>
 " Vimwiki settings
 " ---------------------------------------------------------------------------
 
-let g:vimwiki_list = [{'path': '~/Documents/vimwiki/'}]
+let g:vimwiki_list = [{'path': '~/Documents/vimwiki/', 'syntax': 'markdown', 'ext' : '.md'}]
 
 " ---------------------------------------------------------------------------
 " COC-VIM TAB SETTINGS
