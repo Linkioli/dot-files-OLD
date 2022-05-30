@@ -12,6 +12,7 @@ set number                  " add line numbers
 set wildmode=longest,list   " get bash-like tab completions
 filetype plugin indent on   " allow auto-indenting depending on file type
 syntax on                   " syntax highlighting
+set nocompatible            " I have no idea what this does tbh
 set mouse=a                 " enable mouse click
 set clipboard=unnamedplus   " using system clipboard
 filetype plugin on
@@ -34,6 +35,8 @@ Plug 'dracula/vim'                                  " dracula colorscheme
 Plug 'dylanaraps/wal.vim'                           " adds pywal support
 Plug 'kyazdani42/nvim-web-devicons'                 " adds more laguage icons
 Plug 'romgrk/barbar.nvim'                           " tab manager
+Plug 'vimwiki/vimwiki'                              " vim wiki
+
 
 call plug#end()
 
@@ -53,6 +56,7 @@ set completeopt=longest,menuone
 nmap <C-n> :NERDTreeToggle<CR> 
 " Sets keybind to toggle nerdtree to control + n
 
+" ---------------------------------------------------------------------------
 " barbar bindings
 " ---------------------------------------------------------------------------
 
@@ -95,6 +99,12 @@ nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>
 " Other:
 " :BarbarEnable - enables barbar (enabled by default)
 " :BarbarDisable - very bad command, should never be used
+
+" ---------------------------------------------------------------------------
+" Vimwiki settings
+" ---------------------------------------------------------------------------
+
+let g:vimwiki_list = [{'path': '~/Documents/vimwiki/'}]
 
 " ---------------------------------------------------------------------------
 " COC-VIM TAB SETTINGS
