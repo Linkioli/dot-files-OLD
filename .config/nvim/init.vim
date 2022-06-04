@@ -36,6 +36,7 @@ Plug 'dylanaraps/wal.vim'                           " adds pywal support
 Plug 'kyazdani42/nvim-web-devicons'                 " adds more laguage icons
 Plug 'romgrk/barbar.nvim'                           " tab manager
 Plug 'vimwiki/vimwiki'                              " vim wiki
+Plug 'jiangmiao/auto-pairs'                         " auto pairs
 
 
 call plug#end()
