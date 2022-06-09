@@ -37,7 +37,7 @@ Plug 'kyazdani42/nvim-web-devicons'                 " adds more laguage icons
 Plug 'romgrk/barbar.nvim'                           " tab manager
 Plug 'vimwiki/vimwiki'                              " vim wiki
 Plug 'jiangmiao/auto-pairs'                         " auto pairs
-
+Plug 'voldikss/vim-floaterm'                        " vim terminal
 
 call plug#end()
 
@@ -100,6 +100,16 @@ nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>
 " Other:
 " :BarbarEnable - enables barbar (enabled by default)
 " :BarbarDisable - very bad command, should never be used
+
+" ---------------------------------------------------------------------------
+" Floaterm settings
+" ---------------------------------------------------------------------------
+
+" bindings
+let g:floaterm_keymap_new    = '<F9>'
+let g:floaterm_keymap_prev   = '<F10>'
+let g:floaterm_keymap_next   = '<F11>'
+let g:floaterm_keymap_toggle = '<F12>'
 
 " ---------------------------------------------------------------------------
 " Vimwiki settings
