@@ -10,5 +10,8 @@ setxkbmap -layout us -variant colemak -option caps:capslock &
 
 ~/.config/slstatus/slstatus &
 
+# screenshot tool
+flameshot &
+
 exec dwm 
 
