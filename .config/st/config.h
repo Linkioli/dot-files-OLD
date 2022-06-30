@@ -95,9 +95,9 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 
-/* #include "/home/linkio/.cache/wal/colors-wal-st.h" */
-/* #include "/home/linkio/.config/colorschemes/black-and-white/colors-wal-st.h" */
-#include "/home/linkio/git-repos/themes/gruvbox-hard/colors-wal-st.h"
+#include "/home/linkio/.cache/wal/colors-wal-st.h"
+// #include "/home/linkio/.config/colorschemes/black-and-white/colors-wal-st.h"
+// #include "/home/linkio/git-repos/themes/gruvbox-hard/colors-wal-st.h"
 
 /*
  * Default colors (colorname index)
