@@ -1,17 +1,6 @@
-picom -b -f --experimental-backend  &
 
-nitrogen --restore &
+~/.config/autostart.sh
 
-lxsession &
-
-sxhkd -m 1 &
-
-setxkbmap -layout us -variant colemak -option caps:capslock &
-
-~/.config/slstatus/slstatus &
-
-# screenshot tool
-flameshot &
-
-exec dwm 
+exec dwm
+# exec bspwm
 
