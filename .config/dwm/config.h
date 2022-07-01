@@ -20,7 +20,7 @@ static const char dmenufont[]       = "JetBrains Mono:size=12";
 // #include "/home/linkio/.config/colorschemes/gruvbox/colors-wal-dwm.h"
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6"};
+static const char *tags[] = { "I", "II", "III", "IV", "V", "VI"};
 
 static const Rule rules[] = {
 	/* xprop(1):
