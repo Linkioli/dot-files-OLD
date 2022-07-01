@@ -1,6 +1,6 @@
 
 ~/.config/autostart.sh
 
-# exec dwm
-exec bspwm
+exec dwm
+# exec bspwm
 
