@@ -1,7 +1,7 @@
 //@theme "/usr/share/rofi/themes/lb.rasi"
 //@theme "/usr/share/rofi/themes/purple.rasi"
 //@theme "/usr/share/rofi/themes/android_notification.rasi"
-//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
 //@theme "/usr/share/rofi/themes/android_notification.rasi"
 
 /* Dark theme. */
@@ -9,8 +9,3 @@
 
 /* other colorchemes */
 /* @import "~/.config/colorschemes/black-and-white/colors-rofi-dark.rasi" */
-//@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
-//@theme "/usr/share/rofi/themes/dmenu.rasi"
-//@theme "/usr/share/rofi/themes/android_notification.rasi"
-//@theme "/usr/share/rofi/themes/lb.rasi"
-@theme "/usr/share/rofi/themes/dmenu.rasi"
