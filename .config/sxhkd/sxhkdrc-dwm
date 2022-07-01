@@ -1,0 +1,27 @@
+# Launch browser
+super + b
+	librewolf
+
+# Run rofi
+super + semicolon  
+	rofi -show drun
+
+# test
+super + shift + semicolon 
+	rofi -show run
+
+# file manager
+super + t
+	thunar
+
+# switch keyboard layout to qwerty
+super + alt + q
+    setxkbmap us
+
+# flameshot screen shot tool
+alt + semicolon
+    flameshot gui
+
+# switch keyboard layout to colemak
+super + alt + c
+    setxkbmap us -variant colemak
