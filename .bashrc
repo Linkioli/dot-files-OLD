@@ -8,10 +8,6 @@
 alias ls='ls --color=auto'
 PS1=' \W λ '
 
-# devour aliases
-alias sxiv='devour sxiv'
-alias mpv='devour mpv'
-
 # wifi aliases
 alias wifireset='sudo systemctl restart NetworkManager'
 
