@@ -17,6 +17,7 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 # other aliases
 alias v='nvim'
 alias chromium-pywal='~/git-repos/ChromiumPywal/generate-theme.sh'
+alias ytdownload='python ~/Projects/youtube-downloader/downloader.py'
 
 # fetch
 # neofetch
