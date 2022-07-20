@@ -38,6 +38,7 @@ Plug 'romgrk/barbar.nvim'                           " tab manager
 Plug 'vimwiki/vimwiki'                              " vim wiki
 Plug 'jiangmiao/auto-pairs'                         " auto pairs
 Plug 'voldikss/vim-floaterm'                        " vim terminal
+Plug 'ap/vim-css-color'
 
 call plug#end()
 
