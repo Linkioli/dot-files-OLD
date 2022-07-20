@@ -25,3 +25,7 @@ alt + semicolon
 # switch keyboard layout to colemak
 super + alt + c
     setxkbmap us -variant colemak
+
+# refresh sxhkd
+super + Escape
+	pkill -USR1 -x sxhkd
