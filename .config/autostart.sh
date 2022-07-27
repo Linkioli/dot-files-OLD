@@ -1,8 +1,10 @@
 #!/bin/bash
 
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources &
+
 picom -b -f --experimental-backend  &
 
-nitrogen --restore &
+xwallpaper --zoom ~/Pictures/wallpapers/wall &
 
 lxsession &
 
