@@ -1,0 +1,11 @@
+
+URxvt.font: xft:monospace:size=10, xft:FontAwesome:size=10
+
+URxvt.scrollBar: false
+
+urxvt*cursorColor:		#d0d0d0
+urxvt*colorIT:			#c37561
+urxvt*colorUL:			#a0a57e
+
+#include "/home/linkio/.cache/wal/colors.Xresources"
+
