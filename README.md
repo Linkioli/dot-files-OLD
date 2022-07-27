@@ -6,7 +6,8 @@ NOTE: This favors the colemak keyboard layout
 
 - pywal
 - dwm
-- st
+- st (no longer using)
+- alacritty
 - neovim
 - rofi
 - slstatus
