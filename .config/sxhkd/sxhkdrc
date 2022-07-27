@@ -1,3 +1,7 @@
+# Launch terminal
+super + Return 
+	alacritty
+
 # Launch browser
 super + b
 	librewolf
