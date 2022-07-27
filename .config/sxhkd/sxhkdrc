@@ -2,6 +2,10 @@
 super + Return 
 	alacritty
 
+# Change wallpaper
+super + shift + w
+	sxiv -t ~/Pictures/wallpapers/*
+
 # Launch browser
 super + b
 	librewolf
