@@ -30,8 +30,9 @@ colors:
     cyan:    '0x8ec07c'
     white:   '0xebdbb2'
     
-    window:
   padding:
    x: 20
    y: 20
-   #I like a lot of padding ;-;
+  
+window:
+  opacity: 0.9
