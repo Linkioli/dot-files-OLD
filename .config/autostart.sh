@@ -4,7 +4,7 @@
 
 picom -b -f --experimental-backend  &
 
-xwallpaper --zoom ~/Pictures/wallpapers/wall &
+nitrogen --restore &
 
 lxsession &
 
