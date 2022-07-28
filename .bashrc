@@ -17,6 +17,7 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 # other aliases
 alias v='nvim'
 alias ytdownload='python ~/Projects/youtube-downloader/downloader.py'
+alias ssh='TERM=xterm-256color ssh'
 
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
