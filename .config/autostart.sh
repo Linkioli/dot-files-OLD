@@ -14,8 +14,8 @@ setxkbmap -layout us -variant colemak -option caps:capslock &
 
 ~/.config/slstatus/slstatus &
 
-# update dwm colors
-xdotool key "super+F5"
-
 # screenshot tool
 flameshot &
+
+# update dwm colors
+xdotool key "super+F5" &
