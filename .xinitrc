@@ -1,6 +1,7 @@
 
 ~/.config/autostart.sh
 
-exec dwm
+exec qtile start
+# exec dwm
 # exec bspwm
 

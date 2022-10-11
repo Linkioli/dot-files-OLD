@@ -22,8 +22,8 @@ set ttyfast                 " Speed up scrolling in Vim
 " set backupdir=~/.cache/vim " Directory to store backup files.
 
 
-
 call plug#begin('~/.vim/plugged')
+
 
 Plug 'sheerun/vim-polyglot'                         " Language Pack
 Plug 'neoclide/coc.nvim', {'branch': 'release'}     " autofill suggestions
@@ -38,7 +38,8 @@ Plug 'romgrk/barbar.nvim'                           " tab manager
 Plug 'vimwiki/vimwiki'                              " vim wiki
 Plug 'jiangmiao/auto-pairs'                         " auto pairs
 Plug 'voldikss/vim-floaterm'                        " vim terminal
-Plug 'ap/vim-css-color'
+Plug 'ap/vim-css-color'                             " show hex colors in css files
+Plug 'beardedfoo/vim-colemak'                       " colemak plugin
 
 call plug#end()
 
