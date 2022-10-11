@@ -1,12 +1,13 @@
 # dot-files
 All of my Linux configuration(dot) files
 
-## Requirements
+## Programs
 NOTE: This favors the colemak keyboard layout
 
 - pywal
 - dwm
-- st (no longer using)
+- qtile
+- st
 - alacritty
 - neovim
 - rofi
